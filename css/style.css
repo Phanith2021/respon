@@ -1,0 +1,48 @@
+@media(orientation: portrait) {
+    .container{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        margin-top: 10px;
+    }
+} 
+
+@media(orientation:landscape) {
+   .card{
+       width: 49%;
+   }
+}
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.card{
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: rgba(222, 228, 135, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card-title{
+    padding: 10px;
+}
+.card-title h1{
+    font-weight: 400;
+    margin: 0%;
+}
+.bt{
+    border-top: 5px solid blueviolet;
+}
+.card-body{
+    padding: 10px;
+    line-height: 1.4;
+}
